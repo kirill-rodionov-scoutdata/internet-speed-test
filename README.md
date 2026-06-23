@@ -15,10 +15,10 @@
 python3 speedtest.py
 ```
 
-Свой адрес и количество запросов:
+Без аргументов уже всё по дефолту: встроенный URL (картинка [image.jpg](image.jpg) из этого репозитория) и 10 запросов. Параметры нужны только если хочешь что-то поменять — свой адрес и/или количество запросов:
 
 ```bash
-python3 speedtest.py https://example.com/some-file.jpg -n 5
+python3 speedtest.py https://upload.wikimedia.org/wikipedia/commons/0/00/Crab_Nebula.jpg -n 5
 ```
 
 ## Пример вывода
